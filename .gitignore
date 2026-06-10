@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost artifacts
+catboost_info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Dataset files
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Evaluation arrays
+models/X_test_ada.npy
+models/X_test_cat.npy
+models/X_test_xgb.npz
+models/y_test.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+
+data/
+models/
+.ipynb_checkpoints/
+catboost_info/
+*.npy
+*.npz
+*.joblib
+*.pkl

@@ -34,7 +34,17 @@ Thumbs.db
 
 # Logs
 *.log
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
 
+notebooks/
+catboost_info/
+
+*.pkl
+*.joblib
+*.npy
+*.npz
 
 data/
 models/

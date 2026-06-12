@@ -41,3 +41,5 @@ models/
 # Temporary files
 *.tmp
 *.temp
+
+data/processed.csv

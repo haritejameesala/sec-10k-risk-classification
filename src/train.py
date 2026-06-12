@@ -39,7 +39,6 @@ ADABOOST_PARAMS = dict(
     ),
     n_estimators=50,
     learning_rate=0.3,
-    algorithm="SAMME",
     random_state=42,
 )
 

@@ -13,17 +13,6 @@ MODELS_DIR.mkdir(exist_ok=True)
 
 LABELS        = ["high_risk", "medium_risk", "low_risk"]
 
-LABEL_TO_INT = {
-    "high_risk": 0,
-    "medium_risk": 1,
-    "low_risk": 2
-}
-
-INT_TO_LABEL = {
-    0: "high_risk",
-    1: "medium_risk",
-    2: "low_risk"
-}
 
 def get_logger(name):
 

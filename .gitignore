@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # Jupyter
 .ipynb_checkpoints/
@@ -14,43 +15,29 @@ venv/
 env/
 .venv/
 
-# Dataset files
-data/*.csv
-data/*.parquet
-data/*.json
-
-# Evaluation arrays
-models/X_test_ada.npy
-models/X_test_cat.npy
-models/X_test_xgb.npz
-models/y_test.npy
+# VS Code
+.vscode/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
-
 # Logs
 *.log
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
 
-notebooks/
-catboost_info/
-
-*.pkl
-*.joblib
-*.npy
-*.npz
-
+# Data files (too large for GitHub)
 data/
+*.csv
+*.parquet
+*.json
+
+# Model artifacts
 models/
-.ipynb_checkpoints/
-catboost_info/
+*.pkl
+*.joblib
 *.npy
 *.npz
-*.joblib
-*.pkl
+
+# Temporary files
+*.tmp
+*.temp
